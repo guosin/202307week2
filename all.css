@@ -154,9 +154,12 @@ body{
 a {
     text-decoration: none;
 }
-
+/* font-size */
 .fz-16{
     font-size: 16px;
+}
+.fz-20{
+    font-size: 20px;
 }
 .fz-24{
     font-size: 24px;
@@ -168,20 +171,30 @@ a {
 .bg-black{
     background: #000;
 }
+
+/* color */
 .color-white{
     color: #FFFFFF;
 }
+.color-15161D{
+    color: #15161D;
+}
 
 
+/* padding */
 
+
+.p-16{
+    padding: 16px;
+}
+.pt-40{
+    padding-top: 40px;
+}
 .pt-72{
     padding-top: 72px;
 }
 .pb-72{
     padding-bottom: 72px;
-}
-.pt-40{
-    padding-top: 40px;
 }
 .pt-160{
 padding-top: 160px;
@@ -189,6 +202,9 @@ padding-top: 160px;
 .pb-160{
     padding-bottom: 160px;
 }
+
+/*  */
+
 
 
 /* margin */
@@ -198,15 +214,21 @@ padding-top: 160px;
 .mr-24{
     margin-right: 24px;
 }
-.mb-36{
-    margin-bottom: 36px;
+.mb-24{
+    margin-bottom: 24px;
 }
 .mb-32{
     margin-bottom: 32px;
 }
+.mb-36{
+    margin-bottom: 36px;
+}
+.ml-134{
+    margin-left: 134px;
+}
 
 
-
+/* flex */
 .df{
     display: flex;
 }
@@ -216,9 +238,19 @@ padding-top: 160px;
 .align-self{
     align-self: center;
 }
-
-
-
+.nowrap{
+    flex-wrap: wrap;
+}
+/* width */
+.width-306{
+    width: 306px;
+}
+.width-636{
+    width: 636px;
+}
+.width-526{
+    width: 526px; 
+ }
 
 
 
@@ -254,7 +286,7 @@ padding-top: 160px;
 
 .container{
     width: 1296px;
-    border: 1px solid #000;
+    
     margin: 0 auto;
 }
 .header li{
@@ -269,7 +301,11 @@ padding-top: 160px;
 .introduction{
     background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true');
 }
-.w-526{
-   width: 526px; 
-}
 
+
+.container-li-bd{
+    border: 1px solid  #E3E3E3 ;
+}
+.about{
+    color: #15161D
+}
