@@ -287,6 +287,9 @@ padding-top: 160px;
 .width-526{
     width: 526px; 
  }
+ .width-746{
+    width: 746px;
+ }
  .heigh-100{
     height: 100px;
  }
@@ -355,4 +358,16 @@ padding-top: 160px;
 .contact{
     background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
 
+}
+
+
+
+.project h2{
+    
+    width: 746px;
+    align-self: flex-end;
+    
+}
+.fd-c{
+    flex-direction: column;
 }
