@@ -200,6 +200,14 @@ h2{
 .p-16{
     padding: 16px;
 }
+.ptpd-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.prpl-24{
+    padding-right: 24px;
+    padding-left: 24px;
+}
 .pt-40{
     padding-top: 40px;
 }
@@ -222,13 +230,16 @@ padding-top: 160px;
     padding-bottom: 160px;
 }
 
-/*  */
+/* radius */
 
 
 
 /* margin */
 .mr-16{
     margin-right: 16px;
+}
+.mb-16{
+    margin-bottom: 16px;
 }
 .mr-20{
     margin-right: 20px;
@@ -268,6 +279,12 @@ padding-top: 160px;
     align-self: center;
     
 }
+.as-flex-end{
+    align-self: flex-end;
+}
+
+
+
 .nowrap{
     flex-wrap: wrap;
 }
@@ -277,6 +294,9 @@ padding-top: 160px;
 }
 .width-162{
     width: 162px;
+}
+.width-185{
+    width: 185px;
 }
 .width-306{
     width: 306px;
@@ -362,12 +382,7 @@ padding-top: 160px;
 
 
 
-.project h2{
-    
-    width: 746px;
-    align-self: flex-end;
-    
-}
+
 .fd-c{
     flex-direction: column;
 }
