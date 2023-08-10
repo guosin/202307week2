@@ -231,10 +231,15 @@ padding-top: 160px;
 }
 
 /* radius */
-
+.bdr-32{
+    border-radius: 32px;
+}
 
 
 /* margin */
+.ml-4{
+    margin-left: 4px;
+}
 .mr-16{
     margin-right: 16px;
 }
@@ -252,6 +257,9 @@ padding-top: 160px;
 }
 .mt-24{
     margin-top: 24px;
+}
+.mb-28{
+    margin-bottom: 28px;
 }
 .mb-32{
     margin-bottom: 32px;
