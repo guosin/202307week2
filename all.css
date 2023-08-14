@@ -162,6 +162,9 @@ h2{
 .block{
     display: block;
 }
+.inline-block{
+    display: inline-block;
+}
 
 
 /* font-size */
@@ -184,6 +187,9 @@ h2{
     background: #000;
 }
 
+.bg-white{
+    background: white;
+}
 
 
 
@@ -192,6 +198,9 @@ h2{
     color: #FFFFFF;
 }
 
+.color-black{
+    color: black;
+}
 
 
 /* padding */
@@ -207,6 +216,10 @@ h2{
 .prpl-24{
     padding-right: 24px;
     padding-left: 24px;
+}
+.ptpd-32{
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .pt-40{
     padding-top: 40px;
@@ -276,7 +289,36 @@ padding-top: 160px;
 .ml-134{
     margin-left: 134px;
 }
+/* hover效果 */
+.button-img-none{
+    display: none;
+}
+.button-hover:hover{
+    background: black;
+    outline: 1px solid white;
+}
+.button-white-black-hover:hover{
+    background: white;
+    outline: 1px solid black;
+}
+.button-hover:hover a{
+    color: white;
+}
+.button-white-black-hover:hover a{
+    color:black;
+}
+.button-white-black-hover:hover .button-img{
+    display: none;
+}
 
+.button-white-black-hover:hover .button-img-none{
+    display: inline;
+}
+
+.social-icon-hover:hover{
+    box-shadow: 0 0 16px 3px rgba(144, 148, 255, 0.81);
+    border-radius: 40px;
+}
 
 
 /* flex */
@@ -285,6 +327,9 @@ padding-top: 160px;
 }
 .jcsb{
     justify-content: space-between
+}
+.justify-content-c{
+    justify-content: center;
 }
 .as-center{
     align-self: center;
@@ -352,19 +397,30 @@ padding-top: 160px;
 .contact-a{
     display: block;
     width: 185px;
-    height: 48px;
     padding: 12px  24px  12px  24px;
     background: white;
     border-radius: 32px;
     margin-left: auto;
 }
 
-
+/* 對齊 */
 .container{
     width: 1296px;
     
     margin: 0 auto;
 }
+.margin-left-auto{
+    margin-left: auto;
+}
+/* shadow */
+.gray-shadow{
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+
+}
+
+
+
+
 .header li{
    
     width: 306px;
@@ -380,7 +436,7 @@ padding-top: 160px;
 
 
 .container-li-bd{
-    border: 1px solid  #E3E3E3 ;
+    border: 1px solid rgba(227, 227, 227, 1) ;
 }
 .about{
     color: #15161D
@@ -391,9 +447,10 @@ padding-top: 160px;
 
 }
 
-
-
-
 .fd-c{
     flex-direction: column;
+}
+
+.text-align-c{
+text-align: center;
 }
